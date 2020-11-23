@@ -59,22 +59,26 @@ nav {
     justify-content: space-evenly;
 }
 
-.phone {
+.watch{
+    padding: 5px 0;
+}
+
+.phone, .watch, .pad {
     display: flex;
     align-items: center;
 }
 
-.introduction h1 {
+.introduction h1, .watch-introduction h1, .pad-introduction h1 {
     font-size: 44px;
     font-weight: 500;
 }
 
-.introduction p {
+.introduction p, .watch-introduction p, .pad-introduction p {
     font-size: 22px;
     margin-top: 10px;
 }
 
-.potato-phone {
+.potato-phone, .potato-watch, .potato-pad {
     flex: 1;
     margin: 0px 30px;
 }
@@ -83,13 +87,35 @@ nav {
     margin: 30px 0 0 0;
 }
 
-.cta-select {
+.cta-select1 {
     width: 150px;
     height: 30px;
     background-color: black;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.cta-select1:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+
+.cta-select2 {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.cta-select2:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
 }
 
 .cta-add {
@@ -101,11 +127,16 @@ nav {
     cursor: pointer;
 }
 
-.potato-img {
+.cta-add:hover {
+    background-color: black;
+    color: white;
+}
+
+.potato-img, .watch-img, .pad-img {
     flex: 1;
 }
 
-.potato-img img {
+.potato-img img, .watch-img img, .pad-img img {
     height: 60vh;
     margin: 50px 0 0 150px;
     animation: drop 1.5s ease;
