@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.nav-links, .cart {
+    display: flex;
+}
+
+.brand {
+    flex: 1;
+    margin: 0px 30px;
+}
+
+.brand-name {
+    font-weight: 400;
+}
+
+.brand p {
+    font-size: 12px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    color :white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart {
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.introduction h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.introduction p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.potato-phone {
+    flex: 1;
+    margin: 0px 30px;
+}
+
+.cta {
+    margin: 30px 0 0 0;
+}
+
+.cta-select {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-add {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.potato-img {
+    flex: 1;
+}
+
+.potato-img img {
+    height: 60vh;
+    margin: 50px 0 0 150px;
+    animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
