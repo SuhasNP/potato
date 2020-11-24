@@ -153,4 +153,70 @@ nav {
     }
 }
 
+.footer-details {
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+}
+
+.footer-details, .product-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-details, .explore, .about {
+    flex: 1;
+}
+
+.explore, .about {
+    text-align: center;
+}
+
+.explore h5 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.explore-link {
+    font-size: 16px;
+    padding: 2px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.explore-links {
+    padding: 23px 0;
+}
+
+.social-links {
+    flex: 1;
+    text-align: center;
+}
+
+.social-links p {
+    font-size: 14px;
+    padding: 0 0 10px;
+}
+
+.about-links, .explore-links {
+    list-style: none;
+    cursor: pointer;
+}
+
+.about-link {
+    font-size: 16px;
+    padding: 2px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.fab {
+    padding: 0px 5px;
+}
+
+.copyright {
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: center;
+}
 
