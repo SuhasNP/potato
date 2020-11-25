@@ -181,7 +181,9 @@ nav {
     font-size: 16px;
     padding: 2px 0;
     text-decoration: none;
-    color: white;
+    color:gray;
+    cursor: pointer;
+    
 }
 
 .explore-links {
@@ -194,24 +196,25 @@ nav {
 }
 
 .social-links p {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0 0 10px;
 }
 
 .about-links, .explore-links {
     list-style: none;
-    cursor: pointer;
 }
 
 .about-link {
     font-size: 16px;
     padding: 2px 0;
     text-decoration: none;
-    color: white;
+    color:gray;
+    cursor: pointer;
 }
 
 .fab {
     padding: 0px 5px;
+    cursor: pointer;
 }
 
 .copyright {
@@ -220,3 +223,68 @@ nav {
     text-align: center;
 }
 
+@media (max-width: 1050px) {
+   /* header */
+    .brand h2 {
+        font-size: 16px;
+    }
+    .brand p {
+        font-size: 8px;
+    }
+    .nav-link {
+        font-size: 10px;
+    }
+    .cart i {
+        font-size: 16px;
+    }
+    /* main */
+    .phone {
+        flex-direction: column-reverse;
+    }
+    .watch {
+        flex-direction: column;
+    }
+    .pad {
+        flex-direction: column-reverse;
+    }
+    main {
+        padding: 20px 0;
+        align-items: center;
+    }
+    .potato-img img, .watch-img img, .pad-img img {
+        height: 30vh;
+        margin: 50px 0 0 150px;
+        position: relative;
+        right: 30%;
+    }
+    .introduction h1, .watch-introduction h1, .pad-introduction h1 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .introduction p, .watch-introduction p, .pad-introduction p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .cta-select1, .cta-select2, .cta-add {
+        width: 75px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .explore h5 {
+        font-size: 14px;
+    }
+    .explore-link {
+        font-size: 10px;
+        padding: 0px;
+    }
+    .explore-links {
+        padding: 5px 0px;
+    }
+    .about-link {
+        font-size: 10px;
+        padding: 0px;
+    }
+    .copyright {
+        font-size: 8px;
+    }
+}
