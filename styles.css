@@ -212,6 +212,10 @@ nav {
     cursor: pointer;
 }
 
+.fas {
+    cursor: pointer;
+}
+
 .fab {
     padding: 0px 5px;
     cursor: pointer;
@@ -232,7 +236,7 @@ nav {
         font-size: 8px;
     }
     .nav-link {
-        font-size: 10px;
+        font-size: 8px;
     }
     .cart i {
         font-size: 16px;
